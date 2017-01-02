@@ -55,7 +55,8 @@ loaded dict: dict_jsons/Austen-Pride_branch_tree_branch_id.dict.json
 
 ### 2) Organizing the parses into dictionaries of trees and branches
 
-from commandline, execute
+From commandline, execute
+
 python3 build_chain_dict
 
 
