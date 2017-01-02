@@ -57,8 +57,9 @@ loaded dict: dict_jsons/Austen-Pride_branch_tree_branch_id.dict.json
 
 From commandline, execute
 
+```bash
 python3 build_chain_dict
-
+```
 
 The current keys are "hctypes", which is a naive concatenation of
 the parent of the current branch and all of its child dependencies.
