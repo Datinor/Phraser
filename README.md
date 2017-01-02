@@ -15,7 +15,8 @@ The current commit includes ready parses of several novels by Jane Austen. The t
 
 ### 3) Accessing trees and swapping branches
 
-In python3, import d. 
+In python3, import d.
+
 Importing the code will print out further directions. 
 
 
