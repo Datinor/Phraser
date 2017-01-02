@@ -1,0 +1,4625 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (SBAR (IN Before)\n      (S\n        (NP (DT any) (NN answer))\n        (VP (MD could)\n          (VP (VB arrive)\n            (PP (IN from)\n              (NP\n                (NP (NNP Collins))\n                (, ,)\n                (CC or)\n                (NP\n                  (NP (DT any) (NNS congratulations))\n                  (PP (TO to)\n                    (NP (NNP Elizabeth))))))\n            (PP (IN from)\n              (NP (PRP$ his) (NN wife)))))))\n    (, ,)\n    (NP (DT the) (NNP Longbourn) (NN family))\n    (VP (VBD heard)\n      (SBAR (IN that)\n        (S\n          (NP (DT the) (NNPS Collinses))\n          (VP (VBD were)\n            (VP (VBN come)\n              (NP (PRP themselves))\n              (PP (TO to)\n                (NP (NNP Lucas) (NNP Lodge))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "arrive"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "answer",
+          "dependent": 2,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 3,
+          "dependentGloss": "answer"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 4,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Collins",
+          "dependent": 6,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 7,
+          "dependentGloss": "Collins"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 10,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "conj",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 11,
+          "dependentGloss": "congratulations"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Elizabeth",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 13,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 15,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 16,
+          "dependentGloss": "wife"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 19,
+          "dependentGloss": "Longbourn"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 20,
+          "dependentGloss": "family"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 21,
+          "dependentGloss": "heard"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "Collinses",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 24,
+          "dependentGloss": "Collinses"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 25,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 26,
+          "dependentGloss": "come"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 27,
+          "dependentGloss": "themselves"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 28,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 29,
+          "dependentGloss": "Lucas"
+        },
+        {
+          "dep": "nmod",
+          "governor": 27,
+          "governorGloss": "themselves",
+          "dependent": 30,
+          "dependentGloss": "Lodge"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "arrive"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "answer",
+          "dependent": 2,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 3,
+          "dependentGloss": "answer"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 4,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Collins",
+          "dependent": 6,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 7,
+          "dependentGloss": "Collins"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 10,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 11,
+          "dependentGloss": "congratulations"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Elizabeth",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 13,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 15,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 16,
+          "dependentGloss": "wife"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 19,
+          "dependentGloss": "Longbourn"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 20,
+          "dependentGloss": "family"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 21,
+          "dependentGloss": "heard"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "Collinses",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 24,
+          "dependentGloss": "Collinses"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 25,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 26,
+          "dependentGloss": "come"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 27,
+          "dependentGloss": "themselves"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 28,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 29,
+          "dependentGloss": "Lucas"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 27,
+          "governorGloss": "themselves",
+          "dependent": 30,
+          "dependentGloss": "Lodge"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "arrive"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 1,
+          "dependentGloss": "Before"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "answer",
+          "dependent": 2,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 3,
+          "dependentGloss": "answer"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 4,
+          "dependentGloss": "could"
+        },
+        {
+          "dep": "case",
+          "governor": 7,
+          "governorGloss": "Collins",
+          "dependent": 6,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 7,
+          "dependentGloss": "Collins"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 8,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cc",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 9,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 10,
+          "dependentGloss": "any"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 11,
+          "dependentGloss": "congratulations"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "Elizabeth",
+          "dependent": 12,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 13,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 14,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "wife",
+          "dependent": 15,
+          "dependentGloss": "his"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 16,
+          "dependentGloss": "wife"
+        },
+        {
+          "dep": "punct",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 18,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 20,
+          "governorGloss": "family",
+          "dependent": 19,
+          "dependentGloss": "Longbourn"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 20,
+          "dependentGloss": "family"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 11,
+          "governorGloss": "congratulations",
+          "dependent": 21,
+          "dependentGloss": "heard"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 22,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "Collinses",
+          "dependent": 23,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 24,
+          "dependentGloss": "Collinses"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 25,
+          "dependentGloss": "were"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 21,
+          "governorGloss": "heard",
+          "dependent": 26,
+          "dependentGloss": "come"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "come",
+          "dependent": 27,
+          "dependentGloss": "themselves"
+        },
+        {
+          "dep": "case",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 28,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 30,
+          "governorGloss": "Lodge",
+          "dependent": 29,
+          "dependentGloss": "Lucas"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 27,
+          "governorGloss": "themselves",
+          "dependent": 30,
+          "dependentGloss": "Lodge"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "arrive",
+          "dependent": 31,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Before",
+          "originalText": "Before",
+          "lemma": "before",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "IN",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "any",
+          "originalText": "any",
+          "lemma": "any",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 10,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "answer",
+          "originalText": "answer",
+          "lemma": "answer",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 17,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "could",
+          "originalText": "could",
+          "lemma": "could",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 23,
+          "pos": "MD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "arrive",
+          "originalText": "arrive",
+          "lemma": "arrive",
+          "characterOffsetBegin": 24,
+          "characterOffsetEnd": 30,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 35,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Collins",
+          "originalText": "Collins",
+          "lemma": "Collins",
+          "characterOffsetBegin": 36,
+          "characterOffsetEnd": 43,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 44,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "any",
+          "originalText": "any",
+          "lemma": "any",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 51,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "congratulations",
+          "originalText": "congratulations",
+          "lemma": "congratulation",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 67,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 70,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Elizabeth",
+          "originalText": "Elizabeth",
+          "lemma": "Elizabeth",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 80,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 81,
+          "characterOffsetEnd": 85,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "his",
+          "originalText": "his",
+          "lemma": "he",
+          "characterOffsetBegin": 86,
+          "characterOffsetEnd": 89,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "wife",
+          "originalText": "wife",
+          "lemma": "wife",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 94,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 95,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 99,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "Longbourn",
+          "originalText": "Longbourn",
+          "lemma": "Longbourn",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 109,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "family",
+          "originalText": "family",
+          "lemma": "family",
+          "characterOffsetBegin": 110,
+          "characterOffsetEnd": 116,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "heard",
+          "originalText": "heard",
+          "lemma": "hear",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 122,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 127,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 131,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "Collinses",
+          "originalText": "Collinses",
+          "lemma": "Collinses",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 141,
+          "pos": "NNPS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 146,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "come",
+          "originalText": "come",
+          "lemma": "come",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 151,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "themselves",
+          "originalText": "themselves",
+          "lemma": "themselves",
+          "characterOffsetBegin": 152,
+          "characterOffsetEnd": 162,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 165,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "Lucas",
+          "originalText": "Lucas",
+          "lemma": "Lucas",
+          "characterOffsetBegin": 166,
+          "characterOffsetEnd": 171,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "Lodge",
+          "originalText": "Lodge",
+          "lemma": "Lodge",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 177,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 31,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 178,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN reason))\n      (PP (IN of)\n        (NP (DT this) (JJ sudden) (NN removal))))\n    (VP (VBD was)\n      (ADVP (RB soon))\n      (ADJP (JJ evident)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "evident"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 2,
+          "dependentGloss": "reason"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 5,
+          "dependentGloss": "sudden"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 6,
+          "dependentGloss": "removal"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 8,
+          "dependentGloss": "soon"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "evident"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 2,
+          "dependentGloss": "reason"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 5,
+          "dependentGloss": "sudden"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 6,
+          "dependentGloss": "removal"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 8,
+          "dependentGloss": "soon"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "evident"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 2,
+          "dependentGloss": "reason"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 4,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "removal",
+          "dependent": 5,
+          "dependentGloss": "sudden"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 2,
+          "governorGloss": "reason",
+          "dependent": 6,
+          "dependentGloss": "removal"
+        },
+        {
+          "dep": "cop",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 7,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advmod",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 8,
+          "dependentGloss": "soon"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "evident",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "lemma": "the",
+          "characterOffsetBegin": 179,
+          "characterOffsetEnd": 182,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "reason",
+          "originalText": "reason",
+          "lemma": "reason",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 189,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 190,
+          "characterOffsetEnd": 192,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 193,
+          "characterOffsetEnd": 197,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "sudden",
+          "originalText": "sudden",
+          "lemma": "sudden",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 204,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "removal",
+          "originalText": "removal",
+          "lemma": "removal",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 212,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 213,
+          "characterOffsetEnd": 216,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "soon",
+          "originalText": "soon",
+          "lemma": "soon",
+          "characterOffsetBegin": 217,
+          "characterOffsetEnd": 221,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "evident",
+          "originalText": "evident",
+          "lemma": "evident",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 229,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 230,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (NN Lady) (NNP Catherine))\n    (VP (VBD had)\n      (VP (VBN been)\n        (VP (VBN rendered)\n          (ADJP (RB so) (RB exceedingly) (JJ angry))\n          (PP (IN by)\n            (NP\n              (NP (DT the) (NNS contents))\n              (PP (IN of)\n                (NP\n                  (NP\n                    (NP (PRP$ her) (NN nephew) (POS 's))\n                    (NN letter))\n                  (, ,)\n                  (SBAR\n                    (WHNP (WDT that))\n                    (S\n                      (NP\n                        (NP (NNP Charlotte))\n                        (, ,)\n                        (VP\n                          (ADVP (RB really))\n                          (VBG rejoicing)\n                          (PP (IN in)\n                            (NP (DT the) (NN match))))\n                        (, ,))\n                      (VP (VBD was)\n                        (ADJP (JJ anxious)\n                          (S\n                            (VP (TO to)\n                              (VP (VB get)\n                                (ADVP (RB away))\n                                (SBAR (IN till)\n                                  (S\n                                    (NP (DT the) (NN storm))\n                                    (VP (VBD was)\n                                      (VP (VBN blown)\n                                        (PP (IN over))))))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 28,
+          "dependentGloss": "anxious"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Catherine",
+          "dependent": 1,
+          "dependentGloss": "Lady"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 2,
+          "dependentGloss": "Catherine"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 4,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "csubj",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 5,
+          "dependentGloss": "rendered"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "exceedingly",
+          "dependent": 6,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "angry",
+          "dependent": 7,
+          "dependentGloss": "exceedingly"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 8,
+          "dependentGloss": "angry"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 9,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 11,
+          "dependentGloss": "contents"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 13,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 14,
+          "dependentGloss": "nephew"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 16,
+          "dependentGloss": "letter"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 18,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 19,
+          "dependentGloss": "Charlotte"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 21,
+          "dependentGloss": "really"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 22,
+          "dependentGloss": "rejoicing"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 25,
+          "dependentGloss": "match"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 26,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 27,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 30,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "advmod",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 31,
+          "dependentGloss": "away"
+        },
+        {
+          "dep": "mark",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 32,
+          "dependentGloss": "till"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "storm",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 34,
+          "dependentGloss": "storm"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 35,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 36,
+          "dependentGloss": "blown"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 37,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "punct",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 28,
+          "dependentGloss": "anxious"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Catherine",
+          "dependent": 1,
+          "dependentGloss": "Lady"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 2,
+          "dependentGloss": "Catherine"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 4,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "csubj",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 5,
+          "dependentGloss": "rendered"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "exceedingly",
+          "dependent": 6,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "angry",
+          "dependent": 7,
+          "dependentGloss": "exceedingly"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 8,
+          "dependentGloss": "angry"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 9,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:agent",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 11,
+          "dependentGloss": "contents"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 13,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 14,
+          "dependentGloss": "nephew"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 16,
+          "dependentGloss": "letter"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 18,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 19,
+          "dependentGloss": "Charlotte"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 21,
+          "dependentGloss": "really"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 22,
+          "dependentGloss": "rejoicing"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 25,
+          "dependentGloss": "match"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 26,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 27,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 30,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "advmod",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 31,
+          "dependentGloss": "away"
+        },
+        {
+          "dep": "mark",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 32,
+          "dependentGloss": "till"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "storm",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 34,
+          "dependentGloss": "storm"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 35,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 36,
+          "dependentGloss": "blown"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 37,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "punct",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 28,
+          "dependentGloss": "anxious"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Catherine",
+          "dependent": 1,
+          "dependentGloss": "Lady"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 2,
+          "dependentGloss": "Catherine"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 3,
+          "dependentGloss": "had"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 4,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "csubj",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 5,
+          "dependentGloss": "rendered"
+        },
+        {
+          "dep": "advmod",
+          "governor": 7,
+          "governorGloss": "exceedingly",
+          "dependent": 6,
+          "dependentGloss": "so"
+        },
+        {
+          "dep": "advmod",
+          "governor": 8,
+          "governorGloss": "angry",
+          "dependent": 7,
+          "dependentGloss": "exceedingly"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 8,
+          "dependentGloss": "angry"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 9,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 10,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:agent",
+          "governor": 5,
+          "governorGloss": "rendered",
+          "dependent": 11,
+          "dependentGloss": "contents"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 12,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 13,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 14,
+          "dependentGloss": "nephew"
+        },
+        {
+          "dep": "case",
+          "governor": 14,
+          "governorGloss": "nephew",
+          "dependent": 15,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 11,
+          "governorGloss": "contents",
+          "dependent": 16,
+          "dependentGloss": "letter"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dobj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 18,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 19,
+          "dependentGloss": "Charlotte"
+        },
+        {
+          "dep": "punct",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 20,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 21,
+          "dependentGloss": "really"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 22,
+          "dependentGloss": "rejoicing"
+        },
+        {
+          "dep": "case",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 23,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 25,
+          "governorGloss": "match",
+          "dependent": 24,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 22,
+          "governorGloss": "rejoicing",
+          "dependent": 25,
+          "dependentGloss": "match"
+        },
+        {
+          "dep": "punct",
+          "governor": 16,
+          "governorGloss": "letter",
+          "dependent": 26,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "cop",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 27,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "mark",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 29,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 30,
+          "dependentGloss": "get"
+        },
+        {
+          "dep": "advmod",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 31,
+          "dependentGloss": "away"
+        },
+        {
+          "dep": "mark",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 32,
+          "dependentGloss": "till"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "storm",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 34,
+          "dependentGloss": "storm"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 35,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "advcl",
+          "governor": 30,
+          "governorGloss": "get",
+          "dependent": 36,
+          "dependentGloss": "blown"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 36,
+          "governorGloss": "blown",
+          "dependent": 37,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "punct",
+          "governor": 28,
+          "governorGloss": "anxious",
+          "dependent": 38,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Lady",
+          "originalText": "Lady",
+          "lemma": "lady",
+          "characterOffsetBegin": 231,
+          "characterOffsetEnd": 235,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Catherine",
+          "originalText": "Catherine",
+          "lemma": "Catherine",
+          "characterOffsetBegin": 236,
+          "characterOffsetEnd": 245,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "had",
+          "originalText": "had",
+          "lemma": "have",
+          "characterOffsetBegin": 246,
+          "characterOffsetEnd": 249,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "been",
+          "originalText": "been",
+          "lemma": "be",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 254,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "rendered",
+          "originalText": "rendered",
+          "lemma": "render",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 263,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "so",
+          "originalText": "so",
+          "lemma": "so",
+          "characterOffsetBegin": 264,
+          "characterOffsetEnd": 266,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "exceedingly",
+          "originalText": "exceedingly",
+          "lemma": "exceedingly",
+          "characterOffsetBegin": 267,
+          "characterOffsetEnd": 278,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "angry",
+          "originalText": "angry",
+          "lemma": "angry",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 284,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 285,
+          "characterOffsetEnd": 287,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 288,
+          "characterOffsetEnd": 291,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "contents",
+          "originalText": "contents",
+          "lemma": "contents",
+          "characterOffsetBegin": 292,
+          "characterOffsetEnd": 300,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 301,
+          "characterOffsetEnd": 303,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 307,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "nephew",
+          "originalText": "nephew",
+          "lemma": "nephew",
+          "characterOffsetBegin": 308,
+          "characterOffsetEnd": 314,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 314,
+          "characterOffsetEnd": 316,
+          "pos": "POS",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "letter",
+          "originalText": "letter",
+          "lemma": "letter",
+          "characterOffsetBegin": 317,
+          "characterOffsetEnd": 323,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 324,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 325,
+          "characterOffsetEnd": 329,
+          "pos": "WDT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "Charlotte",
+          "originalText": "Charlotte",
+          "lemma": "Charlotte",
+          "characterOffsetBegin": 330,
+          "characterOffsetEnd": 339,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 339,
+          "characterOffsetEnd": 340,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "really",
+          "originalText": "really",
+          "lemma": "really",
+          "characterOffsetBegin": 341,
+          "characterOffsetEnd": 347,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "rejoicing",
+          "originalText": "rejoicing",
+          "lemma": "rejoice",
+          "characterOffsetBegin": 348,
+          "characterOffsetEnd": 357,
+          "pos": "VBG",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 358,
+          "characterOffsetEnd": 360,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 361,
+          "characterOffsetEnd": 364,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "match",
+          "originalText": "match",
+          "lemma": "match",
+          "characterOffsetBegin": 365,
+          "characterOffsetEnd": 370,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 370,
+          "characterOffsetEnd": 371,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 372,
+          "characterOffsetEnd": 375,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "anxious",
+          "originalText": "anxious",
+          "lemma": "anxious",
+          "characterOffsetBegin": 376,
+          "characterOffsetEnd": 383,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 384,
+          "characterOffsetEnd": 386,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "get",
+          "originalText": "get",
+          "lemma": "get",
+          "characterOffsetBegin": 387,
+          "characterOffsetEnd": 390,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "away",
+          "originalText": "away",
+          "lemma": "away",
+          "characterOffsetBegin": 391,
+          "characterOffsetEnd": 395,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "till",
+          "originalText": "till",
+          "lemma": "till",
+          "characterOffsetBegin": 396,
+          "characterOffsetEnd": 400,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 401,
+          "characterOffsetEnd": 404,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "storm",
+          "originalText": "storm",
+          "lemma": "storm",
+          "characterOffsetBegin": 405,
+          "characterOffsetEnd": 410,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 411,
+          "characterOffsetEnd": 414,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "blown",
+          "originalText": "blown",
+          "lemma": "blow",
+          "characterOffsetBegin": 415,
+          "characterOffsetEnd": 420,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "over",
+          "originalText": "over",
+          "lemma": "over",
+          "characterOffsetBegin": 421,
+          "characterOffsetEnd": 425,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 38,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 425,
+          "characterOffsetEnd": 426,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (PP (IN At)\n      (NP (PDT such) (DT a) (NN moment)))\n    (, ,)\n    (NP\n      (NP (DT the) (NN arrival))\n      (PP (IN of)\n        (NP (PRP$ her) (NN friend))))\n    (VP (VBD was)\n      (NP (DT a)\n        (ADJP (JJ sincere))\n        (NN pleasure))\n      (PP (TO to)\n        (NP (NNP Elizabeth)))\n      (, ,)\n      (SBAR (IN though)\n        (S\n          (PP (IN in)\n            (NP\n              (NP (DT the) (NN course))\n              (PP (IN of)\n                (NP (PRP$ their) (NNS meetings)))))\n          (NP (PRP she))\n          (VP (MD must)\n            (ADVP (RB sometimes))\n            (VP (VB think)\n              (SBAR\n                (S\n                  (NP (DT the) (NN pleasure))\n                  (ADVP (RB dearly))\n                  (VP (VBD bought) (, ,)\n                    (SBAR\n                      (WHADVP (WRB when))\n                      (S\n                        (NP (PRP she))\n                        (VP (VBD saw)\n                          (NP\n                            (NP (NNP Darcy))\n                            (VP (VBN exposed)\n                              (PP (TO to)\n                                (NP\n                                  (NP (PDT all) (DT the) (NN parading))\n                                  (CC and)\n                                  (NP\n                                    (NP (JJ obsequious) (NN civility))\n                                    (PP (IN of)\n                                      (NP (PRP$ her) (NN husband)))))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 2,
+          "dependentGloss": "such"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 4,
+          "dependentGloss": "moment"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 7,
+          "dependentGloss": "arrival"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 9,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 10,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 11,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 13,
+          "dependentGloss": "sincere"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Elizabeth",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 16,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 18,
+          "dependentGloss": "though"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "though",
+          "dependent": 21,
+          "dependentGloss": "course"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 22,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 23,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "nmod",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 24,
+          "dependentGloss": "meetings"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 25,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "aux",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 26,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "advmod",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 27,
+          "dependentGloss": "sometimes"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 28,
+          "dependentGloss": "think"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "pleasure",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 30,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "advmod",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 31,
+          "dependentGloss": "dearly"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 32,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 33,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 34,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 35,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 36,
+          "dependentGloss": "saw"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 37,
+          "dependentGloss": "Darcy"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 38,
+          "dependentGloss": "exposed"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 39,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 40,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 41,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 42,
+          "dependentGloss": "parading"
+        },
+        {
+          "dep": "cc",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 43,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 45,
+          "governorGloss": "civility",
+          "dependent": 44,
+          "dependentGloss": "obsequious"
+        },
+        {
+          "dep": "conj",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 45,
+          "dependentGloss": "civility"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 46,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 47,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 48,
+          "dependentGloss": "husband"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 49,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 2,
+          "dependentGloss": "such"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 4,
+          "dependentGloss": "moment"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 7,
+          "dependentGloss": "arrival"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 9,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 10,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 11,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 13,
+          "dependentGloss": "sincere"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Elizabeth",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 16,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 18,
+          "dependentGloss": "though"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 18,
+          "governorGloss": "though",
+          "dependent": 21,
+          "dependentGloss": "course"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 22,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 23,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 24,
+          "dependentGloss": "meetings"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 25,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "aux",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 26,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "advmod",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 27,
+          "dependentGloss": "sometimes"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 28,
+          "dependentGloss": "think"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "pleasure",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 30,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "advmod",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 31,
+          "dependentGloss": "dearly"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 32,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 33,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 34,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 35,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 36,
+          "dependentGloss": "saw"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 37,
+          "dependentGloss": "Darcy"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 38,
+          "dependentGloss": "exposed"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 39,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 40,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 41,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 42,
+          "dependentGloss": "parading"
+        },
+        {
+          "dep": "cc",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 43,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 45,
+          "governorGloss": "civility",
+          "dependent": 44,
+          "dependentGloss": "obsequious"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 45,
+          "dependentGloss": "civility"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 46,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 47,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 48,
+          "dependentGloss": "husband"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 49,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 14,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 1,
+          "dependentGloss": "At"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 2,
+          "dependentGloss": "such"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "moment",
+          "dependent": 3,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 4,
+          "dependentGloss": "moment"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 7,
+          "dependentGloss": "arrival"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 8,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 10,
+          "governorGloss": "friend",
+          "dependent": 9,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 7,
+          "governorGloss": "arrival",
+          "dependent": 10,
+          "dependentGloss": "friend"
+        },
+        {
+          "dep": "cop",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 11,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "det",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 12,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 13,
+          "dependentGloss": "sincere"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "Elizabeth",
+          "dependent": 15,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 16,
+          "dependentGloss": "Elizabeth"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 17,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "dep",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 18,
+          "dependentGloss": "though"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 19,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 18,
+          "governorGloss": "though",
+          "dependent": 21,
+          "dependentGloss": "course"
+        },
+        {
+          "dep": "case",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 22,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 23,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 21,
+          "governorGloss": "course",
+          "dependent": 24,
+          "dependentGloss": "meetings"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 25,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "aux",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 26,
+          "dependentGloss": "must"
+        },
+        {
+          "dep": "advmod",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 27,
+          "dependentGloss": "sometimes"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 24,
+          "governorGloss": "meetings",
+          "dependent": 28,
+          "dependentGloss": "think"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "pleasure",
+          "dependent": 29,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 30,
+          "dependentGloss": "pleasure"
+        },
+        {
+          "dep": "advmod",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 31,
+          "dependentGloss": "dearly"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 28,
+          "governorGloss": "think",
+          "dependent": 32,
+          "dependentGloss": "bought"
+        },
+        {
+          "dep": "punct",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 33,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 34,
+          "dependentGloss": "when"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 35,
+          "dependentGloss": "she"
+        },
+        {
+          "dep": "advcl",
+          "governor": 32,
+          "governorGloss": "bought",
+          "dependent": 36,
+          "dependentGloss": "saw"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 37,
+          "dependentGloss": "Darcy"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "saw",
+          "dependent": 38,
+          "dependentGloss": "exposed"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 39,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "det:predet",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 40,
+          "dependentGloss": "all"
+        },
+        {
+          "dep": "det",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 41,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 42,
+          "dependentGloss": "parading"
+        },
+        {
+          "dep": "cc",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 43,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "amod",
+          "governor": 45,
+          "governorGloss": "civility",
+          "dependent": 44,
+          "dependentGloss": "obsequious"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 38,
+          "governorGloss": "exposed",
+          "dependent": 45,
+          "dependentGloss": "civility"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 45,
+          "dependentGloss": "civility"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 46,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 48,
+          "governorGloss": "husband",
+          "dependent": 47,
+          "dependentGloss": "her"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 42,
+          "governorGloss": "parading",
+          "dependent": 48,
+          "dependentGloss": "husband"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "pleasure",
+          "dependent": 49,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "At",
+          "originalText": "At",
+          "lemma": "at",
+          "characterOffsetBegin": 427,
+          "characterOffsetEnd": 429,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "such",
+          "originalText": "such",
+          "lemma": "such",
+          "characterOffsetBegin": 430,
+          "characterOffsetEnd": 434,
+          "pos": "PDT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 435,
+          "characterOffsetEnd": 436,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "moment",
+          "originalText": "moment",
+          "lemma": "moment",
+          "characterOffsetBegin": 437,
+          "characterOffsetEnd": 443,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 443,
+          "characterOffsetEnd": 444,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 445,
+          "characterOffsetEnd": 448,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "arrival",
+          "originalText": "arrival",
+          "lemma": "arrival",
+          "characterOffsetBegin": 449,
+          "characterOffsetEnd": 456,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 457,
+          "characterOffsetEnd": 459,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 460,
+          "characterOffsetEnd": 463,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "friend",
+          "originalText": "friend",
+          "lemma": "friend",
+          "characterOffsetBegin": 464,
+          "characterOffsetEnd": 470,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 471,
+          "characterOffsetEnd": 474,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 475,
+          "characterOffsetEnd": 476,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "sincere",
+          "originalText": "sincere",
+          "lemma": "sincere",
+          "characterOffsetBegin": 477,
+          "characterOffsetEnd": 484,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "pleasure",
+          "originalText": "pleasure",
+          "lemma": "pleasure",
+          "characterOffsetBegin": 485,
+          "characterOffsetEnd": 493,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 494,
+          "characterOffsetEnd": 496,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "Elizabeth",
+          "originalText": "Elizabeth",
+          "lemma": "Elizabeth",
+          "characterOffsetBegin": 497,
+          "characterOffsetEnd": 506,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 506,
+          "characterOffsetEnd": 507,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "though",
+          "originalText": "though",
+          "lemma": "though",
+          "characterOffsetBegin": 508,
+          "characterOffsetEnd": 514,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 515,
+          "characterOffsetEnd": 517,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 518,
+          "characterOffsetEnd": 521,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "course",
+          "originalText": "course",
+          "lemma": "course",
+          "characterOffsetBegin": 522,
+          "characterOffsetEnd": 528,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 529,
+          "characterOffsetEnd": 531,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "their",
+          "originalText": "their",
+          "lemma": "they",
+          "characterOffsetBegin": 532,
+          "characterOffsetEnd": 537,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "meetings",
+          "originalText": "meetings",
+          "lemma": "meeting",
+          "characterOffsetBegin": 538,
+          "characterOffsetEnd": 546,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 547,
+          "characterOffsetEnd": 550,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "must",
+          "originalText": "must",
+          "lemma": "must",
+          "characterOffsetBegin": 551,
+          "characterOffsetEnd": 555,
+          "pos": "MD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "sometimes",
+          "originalText": "sometimes",
+          "lemma": "sometimes",
+          "characterOffsetBegin": 556,
+          "characterOffsetEnd": 565,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "think",
+          "originalText": "think",
+          "lemma": "think",
+          "characterOffsetBegin": 566,
+          "characterOffsetEnd": 571,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 572,
+          "characterOffsetEnd": 575,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "pleasure",
+          "originalText": "pleasure",
+          "lemma": "pleasure",
+          "characterOffsetBegin": 576,
+          "characterOffsetEnd": 584,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "dearly",
+          "originalText": "dearly",
+          "lemma": "dearly",
+          "characterOffsetBegin": 585,
+          "characterOffsetEnd": 591,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "bought",
+          "originalText": "bought",
+          "lemma": "buy",
+          "characterOffsetBegin": 592,
+          "characterOffsetEnd": 598,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 33,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 598,
+          "characterOffsetEnd": 599,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "when",
+          "originalText": "when",
+          "lemma": "when",
+          "characterOffsetBegin": 600,
+          "characterOffsetEnd": 604,
+          "pos": "WRB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "she",
+          "originalText": "she",
+          "lemma": "she",
+          "characterOffsetBegin": 605,
+          "characterOffsetEnd": 608,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "saw",
+          "originalText": "saw",
+          "lemma": "see",
+          "characterOffsetBegin": 609,
+          "characterOffsetEnd": 612,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "Darcy",
+          "originalText": "Darcy",
+          "lemma": "Darcy",
+          "characterOffsetBegin": 613,
+          "characterOffsetEnd": 618,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 38,
+          "word": "exposed",
+          "originalText": "exposed",
+          "lemma": "expose",
+          "characterOffsetBegin": 619,
+          "characterOffsetEnd": 626,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 39,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 627,
+          "characterOffsetEnd": 629,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 40,
+          "word": "all",
+          "originalText": "all",
+          "lemma": "all",
+          "characterOffsetBegin": 630,
+          "characterOffsetEnd": 633,
+          "pos": "PDT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 41,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 634,
+          "characterOffsetEnd": 637,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 42,
+          "word": "parading",
+          "originalText": "parading",
+          "lemma": "parading",
+          "characterOffsetBegin": 638,
+          "characterOffsetEnd": 646,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 43,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 647,
+          "characterOffsetEnd": 650,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 44,
+          "word": "obsequious",
+          "originalText": "obsequious",
+          "lemma": "obsequious",
+          "characterOffsetBegin": 651,
+          "characterOffsetEnd": 661,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 45,
+          "word": "civility",
+          "originalText": "civility",
+          "lemma": "civility",
+          "characterOffsetBegin": 662,
+          "characterOffsetEnd": 670,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 46,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 671,
+          "characterOffsetEnd": 673,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 47,
+          "word": "her",
+          "originalText": "her",
+          "lemma": "she",
+          "characterOffsetBegin": 674,
+          "characterOffsetEnd": 677,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 48,
+          "word": "husband",
+          "originalText": "husband",
+          "lemma": "husband",
+          "characterOffsetBegin": 678,
+          "characterOffsetEnd": 685,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 49,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 685,
+          "characterOffsetEnd": 686,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD bore)\n      (NP (PRP it))\n      (, ,)\n      (ADVP (RB however))\n      (, ,)\n      (PP (IN with)\n        (NP (JJ admirable) (NN calmness))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bore"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 5,
+          "dependentGloss": "however"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 7,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 8,
+          "dependentGloss": "admirable"
+        },
+        {
+          "dep": "nmod",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 9,
+          "dependentGloss": "calmness"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bore"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 5,
+          "dependentGloss": "however"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 7,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 8,
+          "dependentGloss": "admirable"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 9,
+          "dependentGloss": "calmness"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "bore"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 4,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 5,
+          "dependentGloss": "however"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 7,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "calmness",
+          "dependent": 8,
+          "dependentGloss": "admirable"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 9,
+          "dependentGloss": "calmness"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "bore",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 687,
+          "characterOffsetEnd": 689,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "bore",
+          "originalText": "bore",
+          "lemma": "bear",
+          "characterOffsetBegin": 690,
+          "characterOffsetEnd": 694,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 695,
+          "characterOffsetEnd": 697,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 697,
+          "characterOffsetEnd": 698,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "however",
+          "originalText": "however",
+          "lemma": "however",
+          "characterOffsetBegin": 699,
+          "characterOffsetEnd": 706,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 706,
+          "characterOffsetEnd": 707,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 708,
+          "characterOffsetEnd": 712,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "admirable",
+          "originalText": "admirable",
+          "lemma": "admirable",
+          "characterOffsetBegin": 713,
+          "characterOffsetEnd": 722,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "calmness",
+          "originalText": "calmness",
+          "lemma": "calmness",
+          "characterOffsetBegin": 723,
+          "characterOffsetEnd": 731,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 731,
+          "characterOffsetEnd": 732,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ]
+}

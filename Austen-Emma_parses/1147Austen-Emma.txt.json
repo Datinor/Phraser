@@ -1,0 +1,997 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (PRP He))\n      (VP (VBD chose)\n        (S\n          (VP (TO to)\n            (VP (VB say)\n              (SBAR\n                (S\n                  (NP (PRP he))\n                  (VP (VBD was)\n                    (VP (VBN employed))))))))))\n    (: --)\n    (S\n      (INTJ\n        (INTJ (UH Well))\n        (, ,)\n        (INTJ (RB well)))\n      (, ,)\n      (NP (PRP I))\n      (VP (VBP have)\n        (VP\n          (PP (IN that)\n            (NP (NN note))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "chose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 4,
+          "dependentGloss": "say"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 7,
+          "dependentGloss": "employed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 8,
+          "dependentGloss": "--"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "Well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 14,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "note",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "note"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "chose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 4,
+          "dependentGloss": "say"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 7,
+          "dependentGloss": "employed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 8,
+          "dependentGloss": "--"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "Well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 14,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "note",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "note"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "chose"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 1,
+          "dependentGloss": "He"
+        },
+        {
+          "dep": "mark",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 3,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 4,
+          "dependentGloss": "say"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 5,
+          "dependentGloss": "he"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 6,
+          "dependentGloss": "was"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 4,
+          "governorGloss": "say",
+          "dependent": 7,
+          "dependentGloss": "employed"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 8,
+          "dependentGloss": "--"
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 9,
+          "dependentGloss": "Well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 10,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "advmod",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 11,
+          "dependentGloss": "well"
+        },
+        {
+          "dep": "punct",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 13,
+          "dependentGloss": "I"
+        },
+        {
+          "dep": "parataxis",
+          "governor": 7,
+          "governorGloss": "employed",
+          "dependent": 14,
+          "dependentGloss": "have"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "note",
+          "dependent": 15,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "have",
+          "dependent": 16,
+          "dependentGloss": "note"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "chose",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "He",
+          "originalText": "He",
+          "lemma": "he",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "PRP",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "chose",
+          "originalText": "chose",
+          "lemma": "choose",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 8,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 11,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "say",
+          "originalText": "say",
+          "lemma": "say",
+          "characterOffsetBegin": 12,
+          "characterOffsetEnd": 15,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "he",
+          "originalText": "he",
+          "lemma": "he",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 18,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "was",
+          "originalText": "was",
+          "lemma": "be",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 22,
+          "pos": "VBD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "employed",
+          "originalText": "employed",
+          "lemma": "employ",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 31,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "--",
+          "originalText": "--",
+          "lemma": "--",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
+          "pos": ":",
+          "ner": "O",
+          "before": " ",
+          "after": "   "
+        },
+        {
+          "index": 9,
+          "word": "Well",
+          "originalText": "Well",
+          "lemma": "well",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 41,
+          "pos": "UH",
+          "ner": "O",
+          "before": "   ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 41,
+          "characterOffsetEnd": 42,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "well",
+          "originalText": "well",
+          "lemma": "well",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 47,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 47,
+          "characterOffsetEnd": 48,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "I",
+          "originalText": "I",
+          "lemma": "I",
+          "characterOffsetBegin": 49,
+          "characterOffsetEnd": 50,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "have",
+          "originalText": "have",
+          "lemma": "have",
+          "characterOffsetBegin": 51,
+          "characterOffsetEnd": 55,
+          "pos": "VBP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 56,
+          "characterOffsetEnd": 60,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "note",
+          "originalText": "note",
+          "lemma": "note",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 65,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 66,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S (CC and)\n    (VP (MD can)\n      (VP (VB shew)\n        (NP (PRP it))\n        (PP (IN after)\n          (NP (NN dinner)))\n        (S\n          (VP (TO to)\n            (VP (VB convince)\n              (NP (NNP Knightley)))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shew"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 1,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 5,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 6,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 8,
+          "dependentGloss": "convince"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 9,
+          "dependentGloss": "Knightley"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shew"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 1,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 5,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "nmod:after",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 6,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 8,
+          "dependentGloss": "convince"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 9,
+          "dependentGloss": "Knightley"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "shew"
+        },
+        {
+          "dep": "cc",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 1,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "aux",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 2,
+          "dependentGloss": "can"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 4,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "case",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 5,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "nmod:after",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 6,
+          "dependentGloss": "dinner"
+        },
+        {
+          "dep": "mark",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 7,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "acl",
+          "governor": 6,
+          "governorGloss": "dinner",
+          "dependent": 8,
+          "dependentGloss": "convince"
+        },
+        {
+          "dep": "dobj",
+          "governor": 8,
+          "governorGloss": "convince",
+          "dependent": 9,
+          "dependentGloss": "Knightley"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "shew",
+          "dependent": 10,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 70,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "can",
+          "originalText": "can",
+          "lemma": "can",
+          "characterOffsetBegin": 71,
+          "characterOffsetEnd": 74,
+          "pos": "MD",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "shew",
+          "originalText": "shew",
+          "lemma": "shew",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 79,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 80,
+          "characterOffsetEnd": 82,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "after",
+          "originalText": "after",
+          "lemma": "after",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 88,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "dinner",
+          "originalText": "dinner",
+          "lemma": "dinner",
+          "characterOffsetBegin": 89,
+          "characterOffsetEnd": 95,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 96,
+          "characterOffsetEnd": 98,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "convince",
+          "originalText": "convince",
+          "lemma": "convince",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 107,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Knightley",
+          "originalText": "Knightley",
+          "lemma": "Knightley",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 117,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 10,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 118,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (INTJ (UH Oh) (. !)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Oh"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Oh",
+          "dependent": 2,
+          "dependentGloss": "!"
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Oh"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Oh",
+          "dependent": 2,
+          "dependentGloss": "!"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 1,
+          "dependentGloss": "Oh"
+        },
+        {
+          "dep": "punct",
+          "governor": 1,
+          "governorGloss": "Oh",
+          "dependent": 2,
+          "dependentGloss": "!"
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Oh",
+          "originalText": "Oh",
+          "lemma": "oh",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "UH",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "!",
+          "originalText": "!",
+          "lemma": "!",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 122,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ]
+}
