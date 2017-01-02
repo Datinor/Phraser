@@ -6,9 +6,9 @@ The larger aim is to generate "stylistic" sentences: given large lists of syntac
 
 The code implements three tasks: 
 
-1) Cleaning a text and parsing it with Stanford CoreNLP Dependency Parser. 
-2) Organizing the parses into dictionaries of trees and branches (with different keys and pointers to original texts)
-3) Accessing trees and swapping branches (according to dictionary keys)
+1. Cleaning a text and parsing it with Stanford CoreNLP Dependency Parser. 
+2. Organizing the parses into dictionaries of trees and branches (with different keys and pointers to original texts)
+3. Accessing trees and swapping branches (according to dictionary keys)
 
 
 The current commit includes ready parses of several novels by Jane Austen. The tasks above are detailed in reverse order:
@@ -63,8 +63,8 @@ the parent of the current branch and all of its child dependencies.
 
 
 ### 1) Cleaning a text and parsing it with Stanford CoreNLP Dependency Parser
-1) Download Stanford CoreNLP Dependency Parser (search online)
-2) store your text file in the folder "texts." NOTE: The text goes through a simple cleanup process that removes some newlines ('\n') and periods (e.g. "Mr."), since these confuse the parser. However, introduction texts and licence information is not cleaned. 
-3) use a text editor to open "txtclean_Austen.py"
-4) update variable "nlp_executable" with the path to the folder that contains Stnaford CoreNLP
-5) update variable "titles" with the name of your text file.
+1. Download Stanford CoreNLP Dependency Parser (search online)
+2. store your text file in the folder "texts." NOTE: The text goes through a simple cleanup process that removes some newlines ('\n') and periods (e.g. "Mr."), since these confuse the parser. However, introduction texts and licence information is not cleaned. 
+3. use a text editor to open "txtclean_Austen.py"
+4. update variable "nlp_executable" with the path to the folder that contains Stnaford CoreNLP
+5. update variable "titles" with the name of your text file.
