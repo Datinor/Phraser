@@ -29,12 +29,6 @@ loaded dict: dict_jsons/Austen-Emma_branch_hctype.dict.json
 loaded dict: dict_jsons/Austen-Emma_branch_tree_branch_id.dict.json
 loaded dict: dict_jsons/Austen-Pride_branch_hctype.dict.json
 loaded dict: dict_jsons/Austen-Pride_branch_tree_branch_id.dict.json
-loaded dict: dict_jsons/Austen-Mansfield_branch_hctype.dict.json
-loaded dict: dict_jsons/Austen-Mansfield_branch_tree_branch_id.dict.json
-loaded dict: dict_jsons/Austen-Lady_branch_hctype.dict.json
-loaded dict: dict_jsons/Austen-Lady_branch_tree_branch_id.dict.json
-loaded dict: dict_jsons/Austen-Love_branch_hctype.dict.json
-loaded dict: dict_jsons/Austen-Love_branch_tree_branch_id.dict.json
 
 #load a tree
 >>> x = d.get_random_mod_tree()
